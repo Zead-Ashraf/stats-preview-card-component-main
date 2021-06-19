@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    width: 80%;
+    height: 446px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/
+section.content {
+    width: 50%;
+}
+
+
+section.image {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* zlibirary */
+
+.fltr {
+    float: right;
+}
+
+.fltl {
+    float: left;
+}
