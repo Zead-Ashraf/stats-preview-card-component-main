@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 15px;
 }
 
 body {
@@ -14,12 +14,131 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 1%;
     
 }
-/
+
+/* content */
+
 section.content {
-    width: 50%;
+    width: 40%;
+    padding: 4%;
+    padding-left: 6%; 
 }
+
+section.image img {
+    border-radius: 1%;
+}
+
+
+h1{
+    font-size: 2.4rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 7%;
+}
+
+span {
+    color: hsl(277, 64%, 61%)
+}
+
+section.mp p {
+    font-size: 1.1rem;
+    line-height: 1.4em;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0 1% 9%;
+
+}
+
+
+
+
+
+/*                  ul                */
+
+
+
+
+
+ul {
+    padding: 0;
+}
+
+ul.numbers  {
+    margin-bottom: 1%;
+    font-size: 1.6rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+
+ul.text {
+    margin-top: 1%;
+    font-size: .8rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+
+
+
+
+/*                    li                     */
+
+
+
+
+
+li {
+    display: inline;
+}
+
+ul.numbers li:first-child {
+    margin: 0;
+}
+
+ul.numbers li {
+    margin-left: 20%;
+}
+
+
+
+
+
+
+/*                  li text                   */
+
+
+
+
+
+
+ul.text li:first-child {
+    margin: 0;
+}
+
+ul.text li:last-child {
+    margin-left: 15%;
+}
+
+
+ul.text li {
+    margin-left: 16%;
+}
+
+
+
+
+
+
+
+
+/*                images              */
+
 
 
 section.image {
@@ -65,3 +184,8 @@ section.image {
 .fltl {
     float: left;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
