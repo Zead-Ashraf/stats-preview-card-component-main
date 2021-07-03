@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component
 
-![Design preview for the Stats preview card component coding challenge](./design/screenshot_3.png)
+![Design preview for the Stats preview card component coding challenge](https://github.com/zebra-not-donkey/stats-preview-card-component-main/blob/main/design/Screenshot_3.png)
 
 ## The challenge
 
@@ -14,10 +14,10 @@ Your users should be able to:
 ## Built with
 1. html 5
 1. css
-	1. position
-	1. float
-	1. **flex-box**
-	1. media queries
+	* position
+	* float
+	* **flex-box**
+	* media queries
 
 
 ## What I learned
@@ -38,6 +38,6 @@ Your users should be able to:
 1. w3school
 1. no internet connection
 
-##Author
+## Author
 **zebra** is the authour (and it is me ,too)
 
