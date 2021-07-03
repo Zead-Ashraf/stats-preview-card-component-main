@@ -309,34 +309,6 @@ ul li {
 }
 
 
-@media (max-height: 720px) and (orientation: portrait) {
-	main {
-		margin-top: 71% !important;
-	}
-
-	.margin-bottom {
-		top: 116% !important;
-	}
-}
-
-
-@media (max-height: 700px) and (orientation: landscape) {
-	main {
-		margin-top: 50% !important;
-	}
-
-	.margin-bottom {
-		top: 116% !important;
-	}
-}
-
-
-@media (height: 375px) and (orientation: landscape) {
-	main {
-		margin-top: 34% !important;
-	}
-
-}	
 /* zlibirary */
 
 .fltr {
